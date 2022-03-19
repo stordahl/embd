@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embeddable Test Page</title>
+  <link rel="stylesheet" href="prism.css">
+  <link rel="stylesheet" href="base.css">
+  <link href="dist/bundle.css" rel="stylesheet">
+  <script src="prism.js"></script>
+</head>
+<body>  
+
+  <header>
+    <h1>Embeddable</h1>
+    <span>a framework for 3rd Party UI</span>
+  </header>
+  <main>
+    <section>
+      <p>This button is embedded 3rd Party JS built with Svelte.js & esbuild</p>
+      <div id="target-div"></div>
+    </section>
+    <section>
+      <p>Simply create a target element, import the JS bundle into your page, and create a new instance of the widget...</p>
+<pre><code class="language-javascript">
+&lt;div id="target-div" /&gt;
+&lt;script src='dist/bundle.js'&gt;&lt;/script&gt;
+&lt;script&gt;
+  const widget = new Widget.Widget({
+    target: "target-div",
+    props: {
+      text: "Click Me",
+      callback: () => alert('Passing a callback!')
+    }
+  })
+&lt;/script&gt;
+</code></pre>
+    </section>
+  </main>
+
+  <script src='dist/bundle.js'></script>
+  <script>
+    const widget = new Widget.Widget({
+      target: "target-div",
+      props: {
+        text: "Click Me",
+        callback: () => alert('Passing a callback!')
+      }
+    })
+  </script>
+</body>
+</html>
