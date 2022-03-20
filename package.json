@@ -1,8 +1,8 @@
 {
-  "name": "embeddable",
+  "name": "embd",
   "version": "1.0.0",
   "description": "A starter kit to build 3rd party UI with Svelte & esbuild",
-  "repository": "https://github.com/stordahl/embeddable",
+  "repository": "https://github.com/stordahl/embd",
   "author": "@stordahl",
   "license": "SEE LICENSE",
   "scripts": {
