@@ -1,4 +1,4 @@
-# 🧩 Embeddable
+# 🧩 embd
 
 a framework for 3rd Party UI built with [Svelte](https://svelte.dev/) & [esbuild](https://esbuild.github.io/)
 
@@ -6,11 +6,11 @@ a framework for 3rd Party UI built with [Svelte](https://svelte.dev/) & [esbuild
 
 ## Getting started
 
-Althought the API will change, for now, fork this repo, and then clone your fork to build your own widget with embeddable
+Althought the API will change, for now, fork this repo, and then clone your fork to build your own widget with embd
 
 ```shell
 git clone your-fork-url
-cd embeddable && npm install
+cd embd && npm install
 ```
 
 To run the development server, run...
