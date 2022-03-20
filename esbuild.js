@@ -38,7 +38,7 @@ const options = {
   bundle: true,
   watch,
   format: 'iife',
-  globalName: 'Widget',
+  globalName: 'Embeddable',
   minify: production,
   sourcemap: false,
   outfile: './public/dist/bundle.js', // and bundle.css
