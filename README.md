@@ -1,3 +1,3 @@
 # Embeddable
 
-A starter kit to build 3rd party UI with [Svelte](https://svelte.dev/) & [esbuild](https://esbuild.github.io/)
+a framework for 3rd Party UI built with [Svelte](https://svelte.dev/) & [esbuild](https://esbuild.github.io/)
