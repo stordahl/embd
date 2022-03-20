@@ -14,6 +14,12 @@ header {
   color:white;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
 main {
   min-height: 200px;
   display: flex;
