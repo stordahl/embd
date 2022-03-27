@@ -29,9 +29,9 @@ npm run build
 - [x] [Prototype] - Create MVP
 - [ ] [Investigate] - Test MVP across different use cases
 - [ ] [Refactor] - Refactor into an installable node module
-- [ ] [Refactor] - Setup pnpm workspaces
-- [ ] [Prototype] - Create create-embeddable scaffolding package
-- [ ] [Refactor] - Add embeddable.config.js
+- [x] [Refactor] - Setup pnpm workspaces
+- [x] [Prototype] - Create create-embd scaffolding package
+- [ ] [Refactor] - Add embd.config.js
 - [ ] [Document] - write thorough documentation
 
 ## Contributing

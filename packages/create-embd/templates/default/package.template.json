@@ -1,0 +1,17 @@
+{
+  "name": "{{snake name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "author": "{{capital author space=true}}",
+  "license": "SEE LICENSE",
+  "scripts": {
+    "dev": "node esbuild.js dev",
+    "build": "node esbuild.js prod"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.15",
+    "esbuild-svelte": "^0.5.3",
+    "live-server": "^1.2.1",
+    "svelte": "^3.38.3"
+  }
+}
