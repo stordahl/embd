@@ -1,7 +1,7 @@
 {
   "name": "create-embd",
   "description": "A framework for 3rd Party UI",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "stordahl <jacob@stordahl.dev>",
   "scripts": {
     "build": "tsup src/cli.ts --minify",
