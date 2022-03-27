@@ -4,33 +4,13 @@ a framework for 3rd Party UI built with [Svelte](https://svelte.dev/) & [esbuild
 
 ## Status: ⚠️ In Development ⚠️
 
-## Getting started
-
-Althought the API will change, for now, fork this repo, and then clone your fork to build your own widget with embd
-
-```shell
-git clone your-fork-url
-cd embd && npm install
-```
-
-To run the development server, run...
-
-```shell
-npm run dev
-```
-
-To build for production, run...
-
-```shell
-npm run build
-```
-
 ## Roadmap
 - [x] [Prototype] - Create MVP
 - [ ] [Investigate] - Test MVP across different use cases
 - [ ] [Refactor] - Refactor into an installable node module
 - [x] [Refactor] - Setup pnpm workspaces
 - [x] [Prototype] - Create create-embd scaffolding package
+- [ ] [Feature] - Add data fetcher module
 - [ ] [Refactor] - Add embd.config.js
 - [ ] [Document] - write thorough documentation
 

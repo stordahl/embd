@@ -5,9 +5,9 @@ A framework for building 3rd Party UI with [Svelte.js](https://svelte.dev) and [
 ## To scaffold a new widget
 
 ```bash
-npx create-embd <name>
+npx create-embd <name> 
 
-# or npm init embd
+# or `npx create-embd .` if in an empty directory
 ```
 
 Created with [create-create-app](https://github.com/uetchy/create-create-app)
