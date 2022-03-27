@@ -20,6 +20,22 @@ header {
   gap: .5rem;
 }
 
+.subtitle {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.subtitle > a {
+  border-radius: 50%;
+  background-color: white;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   min-height: 200px;
   display: flex;
